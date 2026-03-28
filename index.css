@@ -1,0 +1,239 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E6E6E6;
+    padding: 20px
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.bold-title{
+    font-weight: bolder;
+}
+
+#logo-picture{
+    width: 48px;
+    margin-right: 3%;
+}
+
+#description{
+    width: 85%;
+    font-size: 16px;
+    color: #607d8b;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 7%;
+    font-weight: 350;
+    text-align: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #607d8b;
+}
+
+
+.sidebar-titles{
+    margin-left: 7%;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+
+.modal{
+    display: none;
+}
+
+.modal.active{
+    display: block;
+}
+
+
+#about-modal{
+    position: absolute;
+    z-index: 200;
+    top: 18%;
+    right: 27%;
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 30px gray;
+}
+
+
+.fa-xmark{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#about-modal-title{
+    display: block;
+    margin: 8%;
+    margin-bottom: 5%;
+    margin-top: 12%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#about-modal-desc{
+    display: block;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #607d8b;
+    margin-left: 8%;
+    font-weight: 350;
+    text-align: space-between;
+}
+
+
+#divider{
+    border: 1px solid #E6E6E6;
+    width: 85%;
+    margin-left: 4%;
+    margin-top: 17px;
+    margin-bottom: 23px;
+}
+
+#social-media{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 19px;
+    border: 1px solid #E6E6E6;
+    width: 70%;
+    height: 50px;
+}
+
+.social-logos{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#github{
+    background-color: #333;
+    font-size: 28px;
+}
+
+#twitter{
+    background-color: #000;
+}
+
+#stackover{
+    background-color: #f48024;
+    font-size: 28px;
+}
+
+#main-content{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - 19% - 40px);
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+}
+
+.fa-magnifying-glass{
+    font-size: 18px;
+    color: #607d8b;
+    padding: 20px;
+    padding-right: 15px;
+}
+
+.fa-cloud-arrow-down{
+    font-size: 22px;
+}
+
+#download-brands{
+    padding: 8px;
+    color: #607d8b;
+    width: 10%;
+    border-left: 1px solid #E6E6E6;
+}
+
+#search{
+    height: 90%;
+    width: 83%;
+    border: none;
+    color: #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.brand{
+    display: flex;
+    max-height: 120px;
+    width: 98%;
+    padding: 15px 0 15px;
+    margin-left: 15px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.brand-name{
+    margin: auto 0;
+    min-width: 20%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.brand-color{
+    width: 60px;
+    min-width: 60px;
+    height: 40px;
+    min-height: 40px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid #E6E6E6;
+}
+
+
+.brand-colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
