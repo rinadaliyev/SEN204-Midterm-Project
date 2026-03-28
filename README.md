@@ -22,9 +22,3 @@ The project aims to simplify access to accurate brand colors, improving efficien
 - HTML  
 - CSS  
 - JavaScript  
-
----
-
-```bash
-git clone https://github.com/your-username/brandcolors.git
-cd brandcolors
