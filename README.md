@@ -13,7 +13,7 @@ The project aims to simplify access to accurate brand colors, improving efficien
 - 🔍 Search functionality for different brands  
 - 🎨 Display of official brand color palettes  
 - 📋 Easy copying of HEX/RGB color values  
-- 💻 Simple, friendly user interface  
+- 💻 Simple, user-friendly interface  
 
 ---
 
